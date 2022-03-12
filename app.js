@@ -78,7 +78,7 @@ function setOff() {
 
 function selectSong(sid) {
     _("#song").src = `./songs/s${sid}.mp3`;
-    _("#simg").src = `./imgs/s${sid}.png`;
+    _("#simg").src = `./images/s${sid}.jfif`;
 }
 
 // Timer
